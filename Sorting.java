@@ -54,7 +54,6 @@ class Sorting{
         System.out.println("--원하는 정렬 입력--");
         System.out.print("보기 >> [bubble\tselect\tinsert]\n");
         String sCommand = sc.nextLine();
-        boolean name = true;
         System.out.print("배열 길이 입력하세요: ");
         int arrLen = sc.nextInt();
         int[] arr = new int[arrLen];
@@ -77,7 +76,6 @@ class Sorting{
                 break;
             default:
                 System.out.println("그런 정렬은 없음.");
-                name = false;
                 break;
         }
     }
